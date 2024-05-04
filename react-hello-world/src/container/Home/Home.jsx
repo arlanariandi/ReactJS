@@ -1,6 +1,7 @@
 import React, {Component} from "react";
 import YouTubeComp from "../../component/YouTubeComponent/YouTubeComp";
 import Product from "../Product/Product";
+import BlogPost from "../BlogPost/BlogPost";
 
 class Home extends Component {
     render() {
@@ -13,7 +14,8 @@ class Home extends Component {
                 {/*<YouTubeComp time="07.34" title="Tutorial React JS - Bagian 2" desc="400x ditonton, 8 hari yang lalu"/>*/}
                 {/*<YouTubeComp time="10.00" title="Tutorial React JS - Bagian 1" desc="1k ditonton, 10 hari yang lalu"/>*/}
                 {/*<YouTubeComp/>*/}
-                <Product/>
+                {/*<Product/>*/}
+                <BlogPost/>
             </div>
         )
     }
